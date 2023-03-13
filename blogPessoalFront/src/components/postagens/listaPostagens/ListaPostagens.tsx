@@ -15,7 +15,7 @@ import Postagem from '../../../models/Postagem';
 import { busca } from '../../../services/Service';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 
-function ListaPostagens() {
+function ListaPostagem() {
   let navigate = useNavigate();
 
   const token = useSelector<TokenState, TokenState['token']>(

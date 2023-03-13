@@ -13,6 +13,7 @@ function Footer() {
         direction="row"
         justifyContent="center"
         alignItems="center"
+        footerComponent
       >
         <Grid alignItems="center" item xs={12}>
           <Box style={{ backgroundColor: '#3F51B5', height: '120px' }}>
